@@ -24,9 +24,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: get site
-        run: netlify link
-        
       - name: Deploy
         id: deploy
         run: |
