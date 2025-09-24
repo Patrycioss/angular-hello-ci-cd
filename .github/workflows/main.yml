@@ -28,6 +28,6 @@ jobs:
         id: deploy
         run: |
           netlify deploy \
-            --dir dist \
+            --dir src \
             --site ${{ secrets.NETLIFY_APP }} \
             --auth ${{ secrets.NETLIFY_TOKEN }}
